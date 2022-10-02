@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+	long long A, B;
+	cin >> A >> B;
+	cout << (A + B) * (A - B) << endl;
+
+	return 0;
+}
